@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Hero(){
     return (
         <section id="hero" className="relative h-[500px] bg-[length:100%_100%] bg-no-repeat"
-        style={{ backgroundImage: "url('/assets/hero.jpg')" }}
+        style={{ backgroundImage: "url('/LandingPage/assets/hero.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="container mx-auto px-4 h-full flex flex-col justify-center items-start relative z-10 text-white">

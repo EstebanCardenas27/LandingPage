@@ -348,7 +348,7 @@ export default function ReservarPage() {
                 <CardContent className="space-y-6">
                   <div className="aspect-video bg-muted rounded-lg overflow-hidden">
                     <img
-                      src="/LandingPage/public/assets/cabana1.jpg"
+                      src="/LandingPage/assets/cabana1.jpg"
                       alt="Cabaña Rural"
                       className="w-full h-full object-cover"
                     />

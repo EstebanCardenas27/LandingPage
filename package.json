@@ -1,14 +1,13 @@
 {
   "name": "landing-cabanas",
   "version": "0.0.1",
-  "homepage": "https://EstebanCardenas27.github.io/LandingPage/",
-  
+  "homepage": "https://EstebanCardenas27.github.io/LandingPage",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@iconify/react": "^6.0.0",

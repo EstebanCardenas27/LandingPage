@@ -1,6 +1,8 @@
 {
   "name": "landing-cabanas",
   "version": "0.0.1",
+  "homepage": "https://EstebanCardenas27.github.io/LandingPage/",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",

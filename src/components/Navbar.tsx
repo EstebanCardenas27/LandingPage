@@ -11,7 +11,7 @@ export default function Navbar() {
 
   useEffect(() => {
     // Rutas donde NO quieres mostrar el navbar
-    const hiddenPaths = ["/reserve"]
+    const hiddenPaths = ["/LandingPage/reserve"]
 
     if (hiddenPaths.includes(location.pathname)) {
       setIsVisible(false)
@@ -44,7 +44,7 @@ export default function Navbar() {
             </a>
           </nav>
           <Button asChild size="lg" className="bg-[#e9b44c] hover:bg-[#e9a82c] text-black">
-            <Link to= "/reserve">Reservar Ahora</Link>
+            <Link to= "/LandingPage/reserve">Reservar Ahora</Link>
           </Button>
         </div>
       </header>

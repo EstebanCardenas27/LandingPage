@@ -10,7 +10,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-const images = ['/assets/cabana1.jpg', '/assets/cabana2.jpg', '/assets/cabana3.jpg', '/assets/cabana4.webp'];
+const images = ['/LandingPage/assets/cabana1.jpg', '/LandingPage/assets/cabana2.jpg', '/LandingPage/assets/cabana3.jpg', '/LandingPage/assets/cabana4.webp'];
 
 export default function CarouselPlugin() {
   const plugin = React.useRef(

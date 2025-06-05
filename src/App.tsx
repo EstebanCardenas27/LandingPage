@@ -4,7 +4,6 @@ import Home from "./pages/Home"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Reserve from "./pages/Reserve"
 
-
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -13,13 +12,13 @@ function App() {
       <main className="flex-grow">
         {/* <Home /> */}        
           <Routes>            
-          <Route index element={<Home />} />    
-          <Route path="/reserve" element={<Reserve />} />    
+          <Route path="/LandingPage/" index element={<Home />} />            
+          <Route path="/LandingPage/reserve" element={<Reserve />} />    
           </Routes>        
       </main>
       <Footer />
     </BrowserRouter>  
-    <div className="hidden">V1.0</div>
+    <div className="hidden">V1.4</div>
     </div>
   )
 }

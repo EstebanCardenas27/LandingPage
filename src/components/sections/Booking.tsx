@@ -13,7 +13,7 @@ export default function Booking(){
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-[#e9b44c] hover:bg-[#e9a82c] text-black">
-              <Link to= "/reserve">Reservar Ahora</Link>
+              <Link to= "/LandingPage/reserve">Reservar Ahora</Link>
             </Button>
             
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/20">

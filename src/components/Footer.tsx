@@ -10,7 +10,7 @@ function Footer() {
 
   useEffect(() => {
     // Rutas donde NO quieres mostrar el navbar
-    const hiddenPaths = ["/reserve"]
+    const hiddenPaths = ["/LandingPage/reserve"]
 
     if (hiddenPaths.includes(location.pathname)) {
       setIsVisible(false)
@@ -47,7 +47,7 @@ function Footer() {
                   Servicios               
                 </li>
                 <li>                 
-                  <Link to= "/reserve">Reservar Ahora</Link>                       
+                  <Link to= "/LandingPage/reserve">Reservar Ahora</Link>                       
                 </li>
                 <li>
                   Contacto               

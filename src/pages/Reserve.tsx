@@ -11,12 +11,11 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Separator } from "@/components/ui/separator"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Link } from "react-router-dom";
 
 export default function ReservarPage() {  
 
   const [date, setDate] = useState<any>(new Date())
-  console.log(date);
-
   const [step, setStep] = useState(1)
   const [guests, setGuests] = useState(2)  
   
@@ -86,7 +85,7 @@ export default function ReservarPage() {
             <h1 className="text-xl font-bold">Mi Cabaña Rural</h1>
           </div>
           <Button asChild variant="ghost" className="text-white hover:bg-white/20">
-            <a href="/">Volver al inicio</a>
+            <Link to="/LandingPage/">Volver al inicio</Link>
           </Button>
         </div>
       </header>
@@ -349,7 +348,7 @@ export default function ReservarPage() {
                 <CardContent className="space-y-6">
                   <div className="aspect-video bg-muted rounded-lg overflow-hidden">
                     <img
-                      src="/public/assets/cabana1.jpg"
+                      src="/LandingPage/public/assets/cabana1.jpg"
                       alt="Cabaña Rural"
                       className="w-full h-full object-cover"
                     />

@@ -19,6 +19,7 @@ function App() {
       </main>
       <Footer />
     </BrowserRouter>  
+    <div className="hidden">V1.0</div>
     </div>
   )
 }
